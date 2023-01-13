@@ -1,0 +1,161 @@
+html{
+    font-size:62.5%;
+}
+
+body{
+    background:url(../images/background.png) center center no-repeat;
+    background-size: cover;
+    height:100vh;
+    transition:.3s;
+}
+
+input[type="checkbox"]{
+    display:none;
+}
+.bi{
+    font-size:3rem;
+    cursor:pointer;
+    color:#da8618;
+}
+
+header.cabecalho{
+    padding:2rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    backdrop-filter:blur(7px); 
+    
+}
+.logo-titulo{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+}
+
+header.cabecalho  h1.titulo-cabecalho{
+    display:flex;
+    justify-content: flex-start;
+    color:#000; 
+    font-size:2.5rem;
+    background-color: #da8618;
+    padding:0.5rem;
+    border-radius:0.5rem;
+}
+
+main.caixa-principal{
+    display:flex;
+    justify-content: center;
+    gap:2rem;
+    background-color: transparent;
+    backdrop-filter: blur(2.5px);
+    border:1px solid #fff;
+    border-radius:1rem;
+    width:60%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding:2rem;
+}
+
+div.imagem{
+    width:50%;
+}
+
+main.caixa-principal div.imagem img.imagem-principal{
+    border-radius:30%;
+    border:3px solid #624d00;
+    width:100%;
+}
+
+div.descricoes{
+    width:50%;
+    text-align: center;
+}
+
+main.caixa-principal div.descricoes h2.titulo-hamburguer{
+    color:#fff;
+    font-size:3.8rem;
+    margin-bottom:1rem;
+    text-transform: uppercase;
+}
+
+main.caixa-principal div.descricoes h3.titulo-descricao-hamburguer{
+    color:#fff;
+    background-color:#c83400;
+    font-size:2.1rem;
+    padding:0.5rem;
+    border-radius:0.5rem;
+
+}
+
+main.caixa-principal div.descricoes p.texto-descricao-hamburger{
+    color:#fff;
+    font-size:1.7rem;
+    text-align: justify;
+    margin-top:2rem;
+    text-indent:3rem;
+}
+
+main.caixa-principal div.descricoes div.caixa-pedidos{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top:5rem;
+}
+main.caixa-principal div.descricoes div.caixa-pedidos p.valor{
+    color:#fff;
+    font-size:4rem;
+}
+
+main.caixa-principal div.descricoes div.caixa-pedidos button.btn-pedido{
+    border-radius:1rem;
+    color:#000;
+    padding:2rem;
+    font-size:1.5rem;
+    cursor:pointer;
+    text-transform: uppercase;
+    font-weight:900;
+}
+
+.bi-moon{
+    display:none;
+}
+
+/* DARK THEME */
+.dark, .dark main{
+    background-color: #050505;
+    color:#fff;
+}
+
+.dark div.decricoes h2.titulo-hamburguer {
+    color:blue;
+}
+
+.dark .btn-pedido{
+    background-color:lightsalmon;
+    color:#000;
+}
+
+.dark .bi-sun{
+    display:none;
+}
+
+.dark .bi-moon{
+    display:block;
+}
+
+.dark 
+header.cabecalho  h1.titulo-cabecalho{
+    background-color:#624d00 ;
+    color:#fff;
+}
+
+.dark main.caixa-principal div.descricoes h3.titulo-descricao-hamburguer{
+    background-color: #624d00;
+}
+
+.dark main.caixa-principal div.descricoes div.caixa-pedidos p.valor{
+    color:#da8618;
+}

@@ -1,0 +1,108 @@
+@media(max-width:1024px){
+header.cabecalho  h1.titulo-cabecalho{
+    font-size:2rem;
+}
+main.caixa-principal div.imagem img.imagem-principal{
+    height:100%;
+}
+
+main.caixa-principal div.descricoes h2.titulo-hamburguer{
+    font-size:2.8rem;
+}
+main.caixa-principal div.descricoes h3.titulo-descricao-hamburguer{
+    font-size:1.5rem;
+}
+main.caixa-principal div.descricoes div.caixa-pedidos p.valor{
+    font-size:3rem;
+}
+main.caixa-principal div.descricoes div.caixa-pedidos button.btn-pedido{
+    font-size:1rem;
+}
+}
+.dark main.caixa-principal div.descricoes div.caixa-pedidos p.valor{
+    color:#da8618;
+    font-size:3.8rem;
+}
+
+@media(max-width:768px){
+    main.caixa-principal div.descricoes h2.titulo-hamburguer{
+        font-size:2rem;
+    }
+    main.caixa-principal div.descricoes p.texto-descricao-hamburger{
+        font-size:1.4rem;
+    }
+    main.caixa-principal div.descricoes div.caixa-pedidos p.valor{
+        font-size:2rem;
+    }
+    main.caixa-principal div.descricoes div.caixa-pedidos button.btn-pedido{
+        font-size:0.8rem;
+    }
+    .dark main.caixa-principal div.descricoes div.caixa-pedidos p.valor{
+        color:#da8618;
+        font-size:2.5rem;
+    }
+    .dark main.caixa-principal div.descricoes div.caixa-pedidos button.btn-pedido{
+        font-size:0.7rem;
+    }
+}
+
+@media(max-width:425px){
+    main.caixa-principal{
+        display:flex;
+        flex-direction: column;
+        width:80%;
+        gap:.5rem;
+    }
+    div.imagem{
+        width:100%;
+        text-align: center;
+    }
+    main.caixa-principal div.imagem img.imagem-principal{
+        width:200px;
+        height:100px;
+    }
+    div.descricoes{
+        width:100%;
+        text-align: center;
+    }
+    main.caixa-principal div.descricoes div.caixa-pedidos{
+        margin-top:1rem;
+    }
+    main.caixa-principal div.descricoes div.caixa-pedidos button.btn-pedido{
+        font-size:1.2rem;
+    }
+    .dark main.caixa-principal div.descricoes div.caixa-pedidos button.btn-pedido{
+        font-size:1.3rem;
+    }
+}
+
+@media(max-width:375px){
+    header.cabecalho  h1.titulo-cabecalho{
+        font-size:1.5rem;
+    }
+    main.caixa-principal div.imagem img.imagem-principal{
+        width:200px;
+        height:95px;
+    }
+    main.caixa-principal div.descricoes h3.titulo-descricao-hamburguer{
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:320px){
+    header.cabecalho  h1.titulo-cabecalho{
+        font-size:1.2rem;
+    }
+    main.caixa-principal div.imagem img.imagem-principal{
+        width:200px;
+        height:85px;
+    }
+    main.caixa-principal div.descricoes div.caixa-pedidos button.btn-pedido{
+        font-size:1rem;
+        padding:1rem;
+    }
+    .dark main.caixa-principal div.descricoes div.caixa-pedidos button.btn-pedido{
+        font-size:0.8rem;
+        padding:1rem;
+    }
+}
